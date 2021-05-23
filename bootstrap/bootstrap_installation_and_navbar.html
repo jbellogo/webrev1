@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap installation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<style media="screen">
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top bg-danger navbar-dark">
+    <a class="navbar-brand"href="#">tindog</a> <!--needs to be above the button else it gets desiligned-->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsableDemo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Need an id to put on data-target to know what div to collapse or uncollapse when you press the button-->
+    <div class="collapse navbar-collapse" id="navbarCollapsableDemo">
+      <ul class="navbar-nav ml-auto">
+        <li class="navbar-item">
+          <a class="nav-link" href="">About me</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="">Projects</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link" href="">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br><br><br><br>
+  <h3>Hello World! This was written with Bootstrap son</h3>
+  <h4>here you will find navs, grids</h4>
+  <br><br><br><br><br><br><br><br><br><br><br>
+
+  <h4>What we want:</h4>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;">
+      Col
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:gray; border:1px solid;">
+      Col
+    </div>
+
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+  <h4>Take a look at the 3 different ways of having two screen-wide cols</h4>
+  <div class="row">
+    <div class="col" style="background-color:orange; border:1px solid;">
+      col
+    </div>
+    <div class="col" style="background-color:orange; border:1px solid;">
+      col
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6" style="background-color:yellow; border:1px solid;">
+      col-6
+    </div>
+    <div class="col-6" style="background-color:yellow; border:1px solid;">
+      col-6
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6" style="background-color:green; border:1px solid;">
+      col-md-6
+    </div>
+    <div class="col-md-6" style="background-color:green; border:1px solid;">
+      col-md-6
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br>
+  <h4>Some grid sizes</h4>
+  <div class="row">
+    <div class="col-6" style="background-color:#ade6d8; border:1px solid;">col-6</div>
+    <div class="col-3" style="background-color:#ade6d8; border:1px solid;">col-3</div>
+    <div class="col-2" style="background-color:#ade6d8; border:1px solid;">col-2</div>
+    <div class="col-1" style="background-color:#ade6d8; border:1px solid;">col-1</div>
+  </div>
+
+
+
+</body>
+</html>

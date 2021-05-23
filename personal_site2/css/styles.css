@@ -1,0 +1,130 @@
+
+
+body {
+  margin: 0 0 0 0;
+  font-family: fantasy;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+hr{
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+  margin: 30px auto 30px auto;
+}
+
+img.skills_images{
+  border-radius: 50%;
+  max-width: 15%;
+  border: 5px solid #11999E;
+  margin: 50px;
+  margin-bottom: 0;
+
+}
+
+.im1{
+  float:left; /*to wrapp around*/
+  position: relative;
+  right: 20px;
+  bottom: 50px;
+}
+
+.im2{
+  float: right;
+  position: relative;
+  bottom: 40px;
+}
+
+h1{
+  font-family: Sacramento;
+  font-size: 300%;
+  margin: 3.15rem auto 0 auto; /*clockwise*/
+}
+
+h3,h2{
+  color:#11999E;
+}
+
+
+
+.header{
+  background-color: #f9b208;
+  padding: 10px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 200%;
+  /*border: 5px solid #f7fd04;*/
+}
+
+
+.text_container{
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding: 40px;
+  height: 100%;
+}
+
+.trademark{
+  margin-bottom: 0;
+}
+/*.text_bod:hover{
+.mid_square{
+border-color: #00000;
+}
+}
+Think you need JS for this
+*/
+
+.wrestling{
+  width:100px;
+  height:100px;
+}
+
+.bottom-container{
+  text-align: center;
+  background-color: #11999E;
+  display: block;
+  color: #66BFBF;
+  margin: 0 0 0 0;
+  padding: 30px;
+}
+
+.footer-link{
+  margin: 30px;
+  text-decoration: none;
+}
+
+.slightly {
+  font-style: italic;
+  color: blue;
+}
+
+.cloud{
+  position: absolute;
+  top: 30px;
+}
+
+.first_cloud{
+  left:500px;
+  top:400px;
+}
+.second_cloud{
+  right:570px;
+  top: 350px;
+}
+
+.btn{
+  border: 1px solid #66BBBB;
+  background-color: #66BFBF;
+  padding: 5px;
+  border-radius: 5%;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}

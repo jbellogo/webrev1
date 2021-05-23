@@ -1,0 +1,211 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+  /* Less Repetition and more modular code l */
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+h3.feature-col-title{
+  font-size: 1.5rem;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+p.feature-col-p{
+  color:#8f8f8f;
+}
+
+
+/* Headings */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Title image  */
+img.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  /* z-index: 1; */
+}
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1;  already accounted by in the flow*/
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Download buttons  */
+.download_button{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+@media (max-width: 1065px) {
+  img.title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+
+/* Features */
+
+.feature-icons{
+  color: #ef8172;
+  margin: 10px;
+}
+
+.feature-icons:hover{
+  color: #ff4c68;
+}
+
+.feature-col{
+  text-align: center;
+}
+
+/* I believe you can do these following 3 with Sass to avoid naming these dummy classes of ensted elements */
+/*
+OR JUST INSTEAD OF THIS
+h3.feature-col-title{
+}
+p.feature-col-p{
+  color:#8f8f8f;
+}
+DO THIS:::
+*/
+.feature-col h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+.feature-col p {
+  color:#8f8f8f;
+}
+
+
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1;  already accounted by in the flow*/
+}
+
+h2{
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-log{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  margin:0;
+}
+
+/* pricint section */
+#pricing{
+  padding: 100px 100px;
+  margin: 10px;
+}
+
+.pricing-row{
+  padding: 10px;
+  margin: 10px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call To Action  */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+/* These should be on big heading class!!!! */
+  font-family: 'Montserrat-Black', sans-serif;
+  padding: 7% 15%;
+}
+
+#footer{
+  padding: 7% 15% 15%;
+  background-color: #fff;
+}
+/* All of these extra classes can be avoided with Sass */
+.footer-icons{
+  padding: 1%;
+}

@@ -1,0 +1,19 @@
+.btn{
+  padding: 20px;
+  text-align: center;
+  color: green;
+  border: 3px solid #000;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
+.huge{
+  font-size: 10rem;
+}
+
+.dogs {
+  font-family: fantasy;
+  color: blue;
+}
