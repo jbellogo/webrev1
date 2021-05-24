@@ -1,0 +1,14 @@
+
+.big-title{
+  font-size: 10rem;
+  color: brown;
+  font-family: cursive;
+}
+
+.center-thing{
+text-align: center;
+}
+
+.relative-position{
+  position: relative;
+}
